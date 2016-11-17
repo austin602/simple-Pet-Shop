@@ -1,0 +1,60 @@
+{
+  "test": {
+    "message": "This is a simple message"
+  },
+  "someroute": {
+    "message": "You have hit the test route"
+  },
+  "pets": [
+    {
+      "name": " Kevin",
+      "category": " Cat",
+      "breed": " Siamese",
+      "adoptionPrice": " $50",
+      "imageUrl": "http://r.ddmcdn.com/s_f/o_1/w_640/h_360/APL/uploads/2014/12/ragdoll-1-.jpg",
+      "id": "1"
+    },
+    {
+      "name": " Buddy",
+      "category": " Dog",
+      "breed": " Mutt",
+      "adoptionPrice": " $60",
+      "imageUrl": "http://dogsaholic.com/wp-content/uploads/2016/04/Brindle_dog_breeds-810x539.jpg",
+      "id": "2"
+    },
+    {
+      "name": " Kaa",
+      "category": " Snake",
+      "breed": " viper",
+      "adoptionPrice": " $50",
+      "imageUrl": "https://dettoldisney.files.wordpress.com/2011/12/jungle-book-kaa.jpg",
+      "id": "3"
+    }
+],
+  "stores": [
+    {
+      "name": " Pet Shop",
+      "address": " 1825 w. ray rd.",
+      "city": " Chandler",
+      "state": " AZ",
+      "postalCode": " 85224",
+      "id": "1"
+    },
+    {
+      "name": " Pet Shop",
+      "address": " 123 w imaginary Ln.",
+      "city": " Scottsdale",
+      "state": " AZ",
+      "postalCode": " 85000",
+      "id": "2"
+    },
+    {
+      "name": " Pet Shop",
+      "address": " 1413 w.alicia Dr.",
+      "city": " Laveen",
+      "state": " AZ",
+      "postalCode": " 85259",
+      "id": "3"
+  }
+  ]
+}
