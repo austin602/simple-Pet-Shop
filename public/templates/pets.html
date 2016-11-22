@@ -8,8 +8,8 @@
             <strong>Breed:</strong>{{pet.breed}}<br>
             <strong>Adoption Price:</strong>{{pet.adoptionPrice}}<br>
             <img ng-src = "{{pet.imageUrl}}"><br>
-            <button ng-click="petsController.editPet(pet.id)">Edit Pet</button>
-            <button ng-click="petsController.deletePet(pet.id)">Delete Pet</button>
+            <button class="btn" ng-click="petsController.editPet(pet.id)">Edit Pet</button>
+            <button class="btn" ng-click="petsController.deletePet(pet.id)">Delete Pet</button>
 
 
         </div>
@@ -27,5 +27,5 @@
     <input name="adoptionPrice" ng-model="petsController.adoptionPrice"> <br>
     <strong>Image URL</strong>
     <input name="imageUrl" ng-model="petsController.imageUrl"> <br>
-    <button type="submit">Add New Pet</button>
+    <button class="btn" type="submit">Add New Pet</button>
 </form>
